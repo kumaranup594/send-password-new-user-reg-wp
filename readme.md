@@ -29,3 +29,14 @@ Few Top Framework & CMS
 - Zend
 - CakePHP
 - Opencart
+
+## About NexGen Innovators! Where I Work!
+I work in NexGen Innovators as Full Stack PHP Developer & Team Lead. [NexGen Innovators](https://www.nexgi.com) is one of the best [Web Design & Development Company in India](https://www.nexgi.com/development/).
+
+NexGen Innovators helps to provide quality services under one roof that needs to scale. e.g
+- [UI & UX Designing](https://www.nexgi.com/design/)
+- [Web & Mobile App Development](https://www.nexgi.com/development/)
+- [Digital Marketing](https://www.nexgi.com/marketing/)
+- [Security and Maintenance](https://www.nexgi.com/security-and-maintenance/) 
+
+To know more visit [About NexGen Innovators](https://www.nexgi.com/about/)
