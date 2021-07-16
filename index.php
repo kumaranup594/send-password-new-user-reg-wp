@@ -5,7 +5,9 @@
  * Description: This plugin is specially created for one of my client
  * Author:      Anup Kumar
  * Author URI:  https://github.com/kumaranup594/
- *
+ * Tags: send password on new user registration, add password welcome email
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * NexGen Innovators is New Delhi, India based IT company provides quality solution to wordPress clients over the world.
  *
  */
