@@ -2,10 +2,9 @@
 /**
  * Plugin Name: Send Password Instead of Email
  * Version:     1.0.0
- * Plugin URI:  https://www.instagram.com/ianup.nexgi/
  * Description: This plugin is specially created for one of my client
  * Author:      Anup Kumar
- * Author URI:  https://www.instagram.com/ianup.nexgi/
+ * Author URI:  https://github.com/kumaranup594/
  *
  * NexGen Innovators is New Delhi, India based IT company provides quality solution to wordPress clients over the world.
  *
