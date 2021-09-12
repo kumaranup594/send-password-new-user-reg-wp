@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Send Password Instead of Email
+ * Plugin Name: Send Password Instead of Email by nexgi.com
  * Version:     1.0.0
  * Description: This plugin is specially created for one of my client
  * Author:      Anup Kumar
@@ -11,12 +11,12 @@
  * NexGen Innovators is New Delhi, India based IT company provides quality solution to wordPress clients over the world.
  *
  */
-add_filter( 'wp_new_user_notification_email', 'custom_wp_new_user_notification_email', 100000, 3 );
-function custom_wp_new_user_notification_email( $wp_new_user_notification_email, $user, $blogname ) {
+add_filter( 'wp_new_user_notification_email', 'SPNEXGI_custom_wp_new_user_notification_email', 100000, 3 );
+function SPNEXGI_custom_wp_new_user_notification_email( $wp_new_user_notification_email, $user, $blogname ) {
 
     if(in_array('subscriber', $user->roles)) {
         $user_id = $user->ID;
-        $password = randomPassword();
+        $password = SPNEXGI_randomPassword();
         wp_set_password($password, $user_id);
         $message = 'Hey ' . $user->display_name . ', Welcome to our website' . "\r\n\r\n";
         $message .= "Please find the username password to login." . "\r\n";
@@ -29,8 +29,8 @@ function custom_wp_new_user_notification_email( $wp_new_user_notification_email,
     }
     return $wp_new_user_notification_email;
 }
-if(!function_exists('randomPassword')) {
-    function randomPassword()
+if(!function_exists('SPNEXGI_randomPassword')) {
+    function SPNEXGI_randomPassword()
     {
         $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
         $pass = array(); //remember to declare $pass as an array
