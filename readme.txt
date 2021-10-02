@@ -4,7 +4,7 @@ Contributors: kumaranup594
 Tags: send password on new user registration, stop sending reset link on new user, send pass in welcome email
 Author URL: https://www.nexgi.com
 Requires at least: 4.0
-Tested up to: 5.7.2
+Tested up to: 5.8.1
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
